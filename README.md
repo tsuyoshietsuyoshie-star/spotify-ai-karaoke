@@ -49,7 +49,7 @@ Starte einfach die Datei **[`Spotify/start_spotify_karaoke.bat`](file:///c:/User
 > [!NOTE]
 > **Warum brauche ich den `sp_dc`-Cookie?**  
 > Mit diesem Cookie kann die App die **offiziellen, farbcodierten Studio-Texte von Spotify** direkt für deinen Account abrufen.  
-> *(Wenn du keinen Cookie einträgst, nutzt die App automatisch die kostenlose LRCLIB-Datenbank).*
+> *(Wenn du keinen Cookie einträgst, nutzt die App automatisch die kostenlose LRCLIB-Datenbank).* Bedenke aber das Timing der Absätze von Spotify genauer sind.
 
 ### 📁 Schritt 1: Konfigurationsdatei vorbereiten
 1. Gehe in den Ordner `Spotify`.
