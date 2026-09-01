@@ -1,0 +1,30 @@
+{
+  "active_profile": "windows_pc_wasapi",
+  "profiles": {
+    "windows_pc_wasapi": {
+      "name": "Windows PC (WASAPI Loopback + GPU WebView2)",
+      "input_latency_ms": 20,
+      "dsp_processing_latency_ms": 10,
+      "output_display_latency_ms": 370,
+      "total_latency_offset_sec": 0.40
+    },
+    "raspberry_pi_alsa": {
+      "name": "Raspberry Pi 5 (ALSA Loopback + HDMI Output)",
+      "input_latency_ms": 15,
+      "dsp_processing_latency_ms": 15,
+      "output_display_latency_ms": 50,
+      "total_latency_offset_sec": 0.08
+    },
+    "usb_studio_interface": {
+      "name": "USB Studio Audio Interface (ASIO / Direct)",
+      "input_latency_ms": 5,
+      "dsp_processing_latency_ms": 5,
+      "output_display_latency_ms": 25,
+      "total_latency_offset_sec": 0.035
+    },
+    "custom": {
+      "name": "Custom Hardware Calibration",
+      "total_latency_offset_sec": 0.40
+    }
+  }
+}
